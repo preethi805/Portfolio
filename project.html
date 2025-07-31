@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>portfolio</title>
+    <style>
+        /* style */
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+    nav{
+            background-image:linear-gradient( rgb(67, 188, 236),rgb(247, 247, 30));
+            height: 50px;
+            width: 100%;
+            border-radius:5px;
+            font-size: 35px;
+            text-size-adjust: 40px   
+        }
+        .nav{
+            float: right; 
+            margin-right: 60px; 
+            line-height: 45px; 
+        }
+        a{
+            padding-left: 70px; 
+            text-decoration: none;
+            color: black;
+            font-style: oblique;
+            line-height: 45px;
+        }
+        body{
+            background-image:linear-gradient( rgb(67, 188, 236),rgb(247, 247, 30));
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            
+        }
+        div img{
+            height:300px;
+            width:500px;
+            margin-left:auto;
+            margin: left;
+            /* margin-top: 30px; */
+        }
+        li:hover{
+           color:blue;
+           
+        }
+       .content{
+            margin: auto;
+            margin-top: 30px;
+            animation-name: set;
+            animation-duration: 8s;
+        }
+        @keyframes set{
+            0%{background-color: blueviolet;}
+            25%{background-color: palevioletred;}
+            50%{background-color:gold;}
+            100%{background-color: olive;}
+        }
+    .crop{
+        text-align: center;
+        font-style: oblique;
+    }
+    .crop:hover{
+        color: rgb(1, 124, 231);
+    }   
+</style>
+</head>
+<body>
+<nav>
+    <a href="index.html">PORTFOLIO</a>
+    <div class="nav">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="project.html">Project</a>
+    <a href="skills.html">Skills</a>
+    <a href="contact.html">Contact</a>
+</div>
+</nav>
+<!-- contents amd designs-- -->
+<div class="content" style="border:3px solid white; border-radius: 6px; height:550px;width: 500px;margin: auto;margin-top: 20px;" >
+    <h1 class="crop" >CROP PREDICTION</h1>
+    <img src="Images/Screenshot (1)(1)(1).png" alt="">
+    <p style="line-height:20px;">
+      <li><b>This is the project about crop prediction based on the nutrients features of the soil.</b></li><br><br>
+      <li><b>Were we can access anywhere at anytime.this is very usefull for farmers to access were
+          We can check crops temp,humidity,soil conditions by ML.</li> <br><br> <li> It will give the best crops 
+          to cultivate for that suitable time.</b></li>
+   </p>
+</div>
+</div>
+</body>
+</html>
